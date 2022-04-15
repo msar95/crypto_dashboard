@@ -23,11 +23,11 @@ function ControlButton ({name, active}){
         </ControlButtonElem>
     )
 }
-export default function (){ // Bar -> ist der Container des CSS-Grid
+export default function (){ // 
     return <Bar>
         <Logo>CryptoDash</Logo>
         <div/>
         <ControlButton active name="dashboard"/>
         <ControlButton active name="settings"/>
-    </Bar> // die Divs sind die Children
+    </Bar> // 
 }
